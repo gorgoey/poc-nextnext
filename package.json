@@ -10,7 +10,8 @@
     "analyze": "BUNDLE_ANALYZE=browser npm run build",
     "export": "next export src",
     "api": "node ./api/server.js",
-    "doctoc": "npx doctoc README.md --github"
+    "doctoc": "npx doctoc README.md --github",
+    "test": "mocha"
   },
   "bin": {
     "create-nextweb-app": "./scripts/create/index.js"
@@ -39,6 +40,7 @@
     "@hookform/resolvers": "^0.1.0",
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "axios": "^0.21.1",
+    "babel": "^6.23.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "core-js": "3.3.6",
     "dotenv": "^7.0.0",
@@ -78,6 +80,7 @@
     "faker": "^4.1.0",
     "json-server": "^0.16.1",
     "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.1",
     "prettier": "^1.16.4"
   },
   "resolutions": {
