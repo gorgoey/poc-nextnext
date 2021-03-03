@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function getMeta({\n  title,\n  description\n}) {\n  const meta = {\n    main: {\n      title,\n      description\n    }\n  };\n  return meta;\n}","map":null,"metadata":{},"sourceType":"module"}

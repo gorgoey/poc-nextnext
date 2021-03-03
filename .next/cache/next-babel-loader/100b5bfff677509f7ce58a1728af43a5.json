@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as Page } from \"./Page\";","map":{"version":3,"sources":["/Volumes/Backup HD/frontend/poc-next-web/poc-nextnext/src/lib/page/index.js"],"names":["default","Page"],"mappings":"AAAA,SAASA,OAAO,IAAIC,IAApB","sourcesContent":["export { default as Page } from './Page'\n"]},"metadata":{},"sourceType":"module"}

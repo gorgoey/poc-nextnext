@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as yup from 'yup';\nexport default yup.object().shape({\n  email: yup.string().trim().email('อีเมลไม่ถูกต้อง').required('กรุณากรอกอีเมล'),\n  password: yup.string().trim().required('กรุณากรอกรหัสผ่าน')\n});","map":null,"metadata":{},"sourceType":"module"}

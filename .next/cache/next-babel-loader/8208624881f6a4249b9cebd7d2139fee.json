@@ -1,0 +1,1 @@
+{"ast":null,"code":"import UIStore from \"../_ui/store\";\nimport ErrorStore from \"../_error/store\";\nexport function createStores() {\n  return {\n    ErrorStore: new ErrorStore(),\n    UIStore: new UIStore()\n  };\n}","map":null,"metadata":{},"sourceType":"module"}

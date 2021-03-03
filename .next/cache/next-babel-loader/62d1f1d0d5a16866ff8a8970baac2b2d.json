@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from \"../components/_pages/_error/404\";","map":{"version":3,"sources":["/Volumes/Backup HD/frontend/poc-next-web/poc-nextnext/src/pages/404.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT","sourcesContent":["export { default } from '@components/_pages/_error/404'\n"]},"metadata":{},"sourceType":"module"}

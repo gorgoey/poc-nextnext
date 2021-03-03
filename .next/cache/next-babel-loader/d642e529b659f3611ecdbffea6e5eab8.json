@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  md: '48em',\n  // 768px\n  lg: '60em',\n  // 960px\n  xl: '80em' // 1280px\n\n};","map":null,"metadata":{},"sourceType":"module"}

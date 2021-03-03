@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function getMeta(_ref) {\n  var title = _ref.title,\n      description = _ref.description;\n  var meta = {\n    main: {\n      title: title,\n      description: description\n    }\n  };\n  return meta;\n}","map":null,"metadata":{},"sourceType":"module"}

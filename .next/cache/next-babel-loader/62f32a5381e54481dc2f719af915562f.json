@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as repository from \"./repository\";\nexport function getArticles({\n  keyword,\n  start = 0,\n  limit = 5\n} = {}) {\n  return repository.find({\n    q: keyword,\n    start,\n    limit\n  });\n}\nexport function getArticleById(id) {\n  return repository.findOneById(id);\n}","map":null,"metadata":{},"sourceType":"module"}

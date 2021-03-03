@@ -1,0 +1,1 @@
+{"ast":null,"code":"import compose from 'lodash/flowRight';\nimport { withErrorHandling } from \"../error\";\nexport default function withDynamicRendering(options = {}) {\n  return function (Component) {\n    const hocs = [withErrorHandling];\n    return compose(...hocs)(Component);\n  };\n}","map":null,"metadata":{},"sourceType":"module"}

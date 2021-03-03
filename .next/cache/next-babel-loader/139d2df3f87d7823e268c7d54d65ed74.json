@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"@emotion/react/jsx-runtime\";\nimport Error500Page from \"../components/_pages/_error/500\";\nexport default function Error() {\n  return _jsx(Error500Page, {\n    statusCode: 500\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

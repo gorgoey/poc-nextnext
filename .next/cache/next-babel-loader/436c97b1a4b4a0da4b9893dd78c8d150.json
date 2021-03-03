@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as AuthService from \"../../../../../modules/_auth/services\";\nexport default function onSubmit(data) {\n  return AuthService.signInWithEmail(data);\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  home: '/',\n  about: '/about',\n  'auth-login': '/member/login',\n  'auth-dashboard': '/member/dashboard',\n  'article-detail': '/article/[id]'\n};","map":null,"metadata":{},"sourceType":"module"}

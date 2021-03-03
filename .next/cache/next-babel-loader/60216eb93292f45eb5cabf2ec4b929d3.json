@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { getStatic } from \"../../../lib/static\";\nexport default {\n  // google: {\n  //   families: ['Open Sans:400'],\n  // },\n  custom: {\n    urls: [getStatic('css/fonts.css') // 'https://fonts.googleapis.com/css?family=Mitr:200,300,500%7CSarabun:400,700&display=swap',\n    ]\n  }\n};","map":null,"metadata":{},"sourceType":"module"}
